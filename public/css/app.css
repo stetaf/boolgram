@@ -10943,6 +10943,7 @@ a.text-dark:focus {
 }
 
 header {
+  background-color: #ffffff;
   padding: 15px 0;
 }
 
@@ -10950,6 +10951,30 @@ header .logo {
   font-family: "Style Script";
   font-weight: bold;
   font-size: 32px;
+  margin: unset;
+}
+
+header .search {
+  height: 28px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+header .search::-moz-placeholder {
+  font-size: 13px;
+  font-weight: unset !important;
+}
+
+header .search:-ms-input-placeholder {
+  font-size: 13px;
+  font-weight: unset !important;
+}
+
+header .search::placeholder {
+  font-size: 13px;
+  font-weight: unset !important;
 }
 
 * {
