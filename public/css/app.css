@@ -10944,42 +10944,43 @@ a.text-dark:focus {
 
 header {
   background-color: #ffffff;
-  padding: 15px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #dedede;
 }
 
 header .logo {
   font-family: "Style Script";
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
   margin: unset;
 }
 
 header .search {
   height: 28px;
+  width: 200px;
   border: 1px solid #d1d1d1;
   border-radius: 3px;
   background-color: #fafafa;
   text-align: center;
 }
 
-header .search::-moz-placeholder {
-  font-size: 13px;
-  font-family: Arial, "Font Awesome 5 Free";
-}
-
-header .search:-ms-input-placeholder {
-  font-size: 13px;
-  font-family: Arial, "Font Awesome 5 Free";
-}
-
-header .search::placeholder {
-  font-size: 13px;
-  font-family: Arial, "Font Awesome 5 Free";
+header .menu i {
+  font-size: 25px;
+  margin-left: 25px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+a:hover {
+  text-decoration: unset;
 }
 

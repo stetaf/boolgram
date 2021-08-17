@@ -15,3 +15,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a { 
+    color: unset;
+    text-decoration: unset;
+}
+
+a:hover {
+    text-decoration: unset;
+}
