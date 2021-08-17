@@ -2,24 +2,29 @@
 
 header {
     background-color: #ffffff;
-    padding: 15px 0;
-
+    padding: 10px 0;
+    border-bottom: 1px solid #dedede;
+    
     .logo { 
         font-family: 'Style Script';
         font-weight: bold;
-        font-size: 32px; 
+        font-size: 30px; 
         margin: unset;
     }
-
+    
     .search { 
         height: 28px;
+        width: 200px;
         border: 1px solid rgb(209, 209, 209);
         border-radius: 3px;
         background-color: #fafafa;
         text-align: center;
     }
-    .search::placeholder { 
-        font-size: 13px;
-        font-family: Arial, 'Font Awesome 5 Free'
+
+    .menu { 
+        i { 
+            font-size: 25px;
+            margin-left: 25px;
+        }
     }
 }
