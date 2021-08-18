@@ -10969,6 +10969,43 @@ header .menu i {
   margin-left: 25px;
 }
 
+main .welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main .welcome .phones {
+  position: relative;
+  background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+  background-size: 444px 618px;
+  width: 444px;
+  height: 618px;
+}
+
+main .welcome .phones img {
+  position: absolute;
+  top: 96px;
+  left: 144px;
+  width: 242px;
+  height: 435px;
+}
+
+main .welcome .card {
+  padding: 25px;
+}
+
+main .welcome .card h2 {
+  font-family: "Style Script";
+  font-weight: bold;
+  font-size: 50px;
+}
+
+main .welcome .card input {
+  width: 300px;
+}
+
 * {
   margin: 0;
   padding: 0;

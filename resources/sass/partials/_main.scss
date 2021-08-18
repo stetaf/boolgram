@@ -1,0 +1,38 @@
+main {
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .phones { 
+            position: relative;
+            background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+            background-size: 444px 618px;
+            width: 444px;
+            height: 618px;    
+    
+            img { 
+                position: absolute;
+                top: 96px;
+                left: 144px;
+                width: 242px;
+                height: 435px;
+            }
+        }
+
+        .card { 
+            padding: 25px;
+
+            h2 { 
+                font-family: 'Style Script'; 
+                font-weight: bold;
+                font-size: 50px;
+            }
+
+            input { 
+                width: 300px;
+            }
+        }
+    }
+}
