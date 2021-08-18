@@ -13,10 +13,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if (Auth::check()) {
-            return view('users.home');
-        } else {
-            return view('guests.welcome');
-        }        
+        return view('users.home');       
     }
 }
