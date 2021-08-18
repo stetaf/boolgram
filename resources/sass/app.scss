@@ -1,5 +1,6 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
 // Variables
 @import 'variables';
@@ -9,6 +10,9 @@
 
 // Header
 @import 'partials/header';
+
+// Main
+@import 'partials/main';
 
 * {
     margin: 0;
