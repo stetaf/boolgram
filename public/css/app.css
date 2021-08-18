@@ -10946,6 +10946,10 @@ header {
   background-color: #ffffff;
   padding: 10px 0;
   border-bottom: 1px solid #dedede;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  z-index: 2;
 }
 
 header .logo {
@@ -11035,6 +11039,43 @@ main .welcome .card a i {
 
 main .welcome .card a:nth-child(1) {
   font-size: 13px;
+}
+
+main .content {
+  padding-top: 85px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+main .content .posts {
+  width: 66%;
+  height: 2000px;
+}
+
+main .content .side {
+  height: 250px;
+  background-color: blue;
+}
+
+main .content .side > div {
+  position: fixed;
+  right: 400px;
+  width: 350px;
+}
+
+main .content .side > div .user i {
+  font-size: 60px;
+}
+
+main .content .side > div .user .data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .content .side > div .suggestions i {
+  font-size: 25px;
 }
 
 * {

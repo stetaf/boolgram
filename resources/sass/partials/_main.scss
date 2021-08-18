@@ -65,4 +65,41 @@ main {
             }
         }
     }
+
+    .content { 
+        padding-top: 85px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+
+        .posts {
+            width: 66%;
+            height: 2000px;
+        }
+
+        .side {
+            height: 250px;
+            background-color: blue;
+
+            &>div { 
+                position: fixed;
+                right: 400px;
+                width: 350px;    
+
+                .user { 
+                    i { font-size: 60px }
+
+                    .data { 
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                }
+
+                .suggestions { 
+                    i { font-size: 25px; }
+                }
+            }
+        }
+    }
 }
