@@ -23,6 +23,7 @@ main {
 
         .card { 
             padding: 25px;
+            border-radius: unset !important;
 
             h2 { 
                 font-family: 'Style Script'; 
@@ -32,6 +33,35 @@ main {
 
             input { 
                 width: 300px;
+            }
+
+            button { 
+                background-color: #0095f6;
+                color: #ffffff;
+            }
+
+            .separator { 
+                height: 1px;
+                width: 100%;
+                background-color: #dedede;
+            }
+
+            .o { 
+                color: #9b9b9b;
+                font-size: 20px;
+                margin: 0 20px;
+            }
+
+            a {
+                color: #385185;
+
+                i { 
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+            }
+            a:nth-child(1) {
+                font-size: 13px;
             }
         }
     }

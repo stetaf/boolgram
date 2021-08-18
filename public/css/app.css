@@ -10994,6 +10994,7 @@ main .welcome .phones img {
 
 main .welcome .card {
   padding: 25px;
+  border-radius: unset !important;
 }
 
 main .welcome .card h2 {
@@ -11004,6 +11005,36 @@ main .welcome .card h2 {
 
 main .welcome .card input {
   width: 300px;
+}
+
+main .welcome .card button {
+  background-color: #0095f6;
+  color: #ffffff;
+}
+
+main .welcome .card .separator {
+  height: 1px;
+  width: 100%;
+  background-color: #dedede;
+}
+
+main .welcome .card .o {
+  color: #9b9b9b;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+main .welcome .card a {
+  color: #385185;
+}
+
+main .welcome .card a i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+main .welcome .card a:nth-child(1) {
+  font-size: 13px;
 }
 
 * {
@@ -11019,5 +11050,9 @@ a {
 
 a:hover {
   text-decoration: unset;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
 
